@@ -6,7 +6,7 @@ ENV LANG=C.UTF-8
 
 RUN apt-get update && \
     apt-get -y install \
-    libavutil-dev libavcodec-dev libavformat-dev libavdevice-dev \
+    libavutil-dev libavcodec-dev libavformat-dev libavdevice-dev && \
     apt-get -y upgrade && \
     apt-get -y autoremove && \
     apt-get clean && \

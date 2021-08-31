@@ -8,6 +8,9 @@ deps: node_modules
 test: deps
 	npm run test
 
+debug: deps
+	npm run debug
+
 build:
 	${DOCKER_COMPOSE} build
 
